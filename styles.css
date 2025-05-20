@@ -1,0 +1,74 @@
+/* Tùy chỉnh giao diện chung */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Tùy chỉnh tiêu đề */
+h1 {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+/* Tùy chỉnh ô nhập liệu */
+.input-group {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#walletAddress {
+    border: 2px solid #e9ecef;
+    padding: 10px;
+    transition: border-color 0.3s ease;
+}
+
+#walletAddress:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+/* Tùy chỉnh nút tìm kiếm */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Tùy chỉnh thẻ NFT */
+.nft-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.nft-card:hover {
+    transform: translateY(-5px);
+}
+
+.nft-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.nft-info {
+    padding: 15px;
+}
+
+/* Tùy chỉnh thông báo lỗi */
+#error {
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+/* Tùy chỉnh loading spinner */
+#loading {
+    margin: 20px 0;
+}
